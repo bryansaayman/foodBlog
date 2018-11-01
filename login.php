@@ -227,14 +227,14 @@ register for an account by clicking register-->
 							<!--Displays the registration form-->
 							<form enctype="multipart/form-data" id="register-form" method="post" role="form" style="display: none;">
 								<div class="form-group">
-									<input type="text" name="FirstName" id="FirstName" tabindex="1" class="form-control" placeholder="First Name" required>
+									<input type="text" name="FirstName" id="FirstName" tabindex="1" class="form-control" placeholder="First Name (required)" required>
 								</div>
 								<div class="form-group">
-									<input type="text" name="LastName" id="LastName" tabindex="1" class="form-control" placeholder="Last Name" required>
+									<input type="text" name="LastName" id="LastName" tabindex="1" class="form-control" placeholder="Last Name (required)" required>
 								</div>
 								<div class="form-group">
 									<select name="Gender" id="Gender" tabindex="1" class="form-control" required>
-									  <option value="" disabled selected hidden>Select a Gender</option>
+									  <option value="" disabled selected hidden>Select a Gender (required)</option>
 									  <option value="M">Male</option>
 									  <option value="F">Female</option>
 									</select>
@@ -243,10 +243,10 @@ register for an account by clicking register-->
 									<input type="date" name="DOB" id="DOB" tabindex="1" class="form-control" value="<?php echo $currentDate ?>" required>
 								</div>
 								<div class="form-group">
-									<input type="email" name="Email" id="Email" tabindex="1" class="form-control" placeholder="Email Address" required>
+									<input type="email" name="Email" id="Email" tabindex="1" class="form-control" placeholder="Email Address (required)" required>
 								</div>
 								<div class="form-group">
-									<input type="tel" name="Contact" id="Contact" tabindex="1" class="form-control" placeholder="Contact Number" required>
+									<input type="tel" name="Contact" id="Contact" tabindex="1" class="form-control" placeholder="Contact Number (required)" required>
 								</div>
 								<div class="custom-file">
 									<label class="custom-file-label" for="Photo">Choose file</label>
